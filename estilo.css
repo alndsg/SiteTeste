@@ -1,11 +1,35 @@
 body{
-	background-color: #FFFFFF;
-	width: 768px;
-}
-#listaMenu{
-	color: #FFFFFF;
-	font-style: bold;
-	font-family: verdana;
-	float: center;
+	text-align: center;
+	background-color: #2E8B57;
+	font-size: 14px;
 }
 
+#listaMenu {           /* => modificando a lista do menu. Usa-se "#" para se referir a uma id. */
+	list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+	text-align: center;
+	margin-bottom: 2px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+li {                   
+	display: inline;   /* => coloca os itens da lista em linha */
+}
+
+li a {                 /* => define os links de cada item da lista */
+    display: inline;
+	color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
+    background-color: #228B22;
+}
+
+#Conteudo {           /* => Define o texto da pagina principal */
+	text-align: left;
+}
