@@ -1,6 +1,11 @@
-
-#Menu{
+body{
+	background-color: #FFFFFF;
+	width: 768px;
+}
+#listaMenu{
 	color: #FFFFFF;
+	font-style: bold;
 	font-family: verdana;
+	float: center;
 }
 
