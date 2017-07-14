@@ -4,7 +4,7 @@ Titulo: Biomas brasileiros
 Descricao 1: Criar um site usando o GitHub e a ideia do Scrum.
 Descricao 2: 
  Paginas: Home, Biomas, Contatos, Sobre.
- Linguagem: HTML, CSS
+ Linguagem: HTML, CSS.
  Home = 2
  Sobre = 1
  Biomas = 5
