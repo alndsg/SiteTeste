@@ -1,10 +1,10 @@
-body{
+body{                 /* => Fundo ou corpo do site */
 	text-align: center;
-	background-color: #2E8B57;
+	background-color: #f1f1f1;
 	font-size: 14px;
 }
 
-#listaMenu {           /* => modificando a lista do menu. Usa-se "#" para se referir a uma id. */
+#listaMenu {           /* => Lista do menu. Usa-se "#" para se referir a uma id */
 	list-style-type: none;
     overflow: hidden;
     background-color: #333;
@@ -14,11 +14,11 @@ body{
 	font-size: 18px;
 }
 
-li {                   
+#listaMenu li {                   
 	display: inline;   /* => coloca os itens da lista em linha */
 }
 
-li a {                 /* => define os links de cada item da lista */
+#listaMenu li a {      /* => define os links de cada item da lista */
     display: inline;
 	color: white;
     text-align: center;
@@ -26,10 +26,32 @@ li a {                 /* => define os links de cada item da lista */
     text-decoration: none;
 }
 
-li a:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
+#listaMenu li a:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
     background-color: #228B22;
 }
 
-#Conteudo {           /* => Define o texto da pagina principal */
+.conteudo {              /* => Conteudo principal em geral */
+	width: 960px;
+	margin: auto;
+}
+.conteudoDireita {       /* conteudo parte 1 da pagina principal */
+	display: table;
+}
+.conteudoDireita img {   /* conteudo parte 1 da pagina principal */
+	display: table-cell;
+	float: left;
+	padding-left: 1px;
+}
+.textoDireita {          /* conteudo parte 1 da pagina principal */
+	display: table-cell;
+	float: right;
+	text-align: left;
+	margin-top: -14px;
+	padding-left: 4px;
+	width: 430px;
+}
+.textoEmbaixo {          /* conteudo parte 1 da pagina principal */
+	display: table-cell;
+	float: left;
 	text-align: left;
 }
