@@ -3,8 +3,7 @@ body{                 /* => Fundo ou corpo do site */
 	background-color: #f1f1f1;
 	font-size: 14px;
 }
-
-#listaMenu {           /* => Lista do menu. Usa-se "#" para se referir a uma id */
+#listaMenu ul{           /* => Lista do menu. Usa-se "#" para se referir a uma id */
 	list-style-type: none;
     overflow: hidden;
     background-color: #333;
@@ -14,11 +13,11 @@ body{                 /* => Fundo ou corpo do site */
 	font-size: 18px;
 }
 
-#listaMenu li {                   
+#listaMenu ul li {                   
 	display: inline;   /* => coloca os itens da lista em linha */
 }
 
-#listaMenu li a {      /* => define os links de cada item da lista */
+#listaMenu ul li a {      /* => define os links de cada item da lista */
     display: inline;
 	color: white;
     text-align: center;
@@ -26,7 +25,7 @@ body{                 /* => Fundo ou corpo do site */
     text-decoration: none;
 }
 
-#listaMenu li a:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
+#listaMenu ul li a:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
     background-color: #228B22;
 }
 
