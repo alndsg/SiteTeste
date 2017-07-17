@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body {
+			background-image: url("../fundo4.jpg");
+			background-color: #dddddd;
+		}
+		p {
+			text-align: justify;
+			text-indent: 50px;
+			
+		}
+/*foto na borda da pag*/
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 1000px;
+	top: 50px;
+}
+
+/*editando o cabeçalho da pag*/
+
+header#cabecalho {
+	border-bottom: 1px #25988b dotted; /* pontilhado*/
+	height:150px; /*distancia do pintilhado*/
+	background : url("../_imagens/logo-biomas.png") no-repeat 0px 80px;/*tenho que voltar uma pagina pois estou na pagina css então uso ".." depois eu falo para a imagem n se repetir e digo o deslocamento lateral e o vertical*/
+	
+}
+
+header#cabecalho h1 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	color: #25988b;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+/*formato lateral da pagina*/
+div#interface {
+	width: 900px;
+	background-color: #ffffff;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px;
+}
+/* formatação de imagens com legendas */
+
+figure.foto-legenda{
+	position:relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	
+}
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+
+figure.foto-legenda figcaption{
+	opacity:0;
+	position:absolute;
+	top:0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+	
+}
+figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
+
+/* formataçção do menu */
+
+nav#menu {
+	display: block;
+	
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute; /* posição absoluta ele fica livre pelo site e relativa fica presa dentro da caixa*/
+	top: -20px;
+	left: 400px;
+	
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px; /* da um espaço nas bordas tipo botão */
+	margin: 2px;  /* margem entre os botões */
+	transition: background-color 1.5s;
+	
+}
+
+nav#menu li:hover {
+	background-color: #25988b;
+	
+}
+
+/* esconder o "menu principal" do site */
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: black;
+	text-decoration: none;  /* tira o sublinhado do link */
+}
+
+nav#menu a:hover {
+	color: white;
+}
+
+
+
+
+
