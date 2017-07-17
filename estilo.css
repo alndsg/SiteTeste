@@ -4,12 +4,13 @@ body{                 /* => Fundo ou corpo do site */
 	background-image: url("imagens/fundolateral.jpg");
 	background-color: #f1f1f1;
 }
+
 #interface {    /* lateral da pagina */
 	width: 970px;
 	background-color: #f1f1f1;
 	margin: 4px auto 0px auto;
 	box-shadow: 0px 0px 10px black;
-	padding-top: 20px;
+	padding-top: 2px;
 	border-radius: 8px;
 }
 #listaMenu {           /* => Lista do menu. Usa-se "#" para se referir a uma id */
@@ -21,7 +22,7 @@ body{                 /* => Fundo ou corpo do site */
 	font-weight: bold;
 	font-size: 20px;
 	position: relative;
-	margin-top: -22px;
+	margin-top: -15px;
 	padding-bottom: 20px;
 	height: 30px;
 }
@@ -38,6 +39,7 @@ body{                 /* => Fundo ou corpo do site */
 	color: white;
     text-align: center;
     text-decoration: none;
+	padding: 25px 8px 25px 08x;
 }
 
 #listaMenu ul li:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
@@ -55,6 +57,7 @@ body{                 /* => Fundo ou corpo do site */
 	display: table-cell;
 	float: left;
 	padding-left: 1px;
+	border-radius: 4px;
 }
 .textoDireita {          /* conteudo parte 1 da pagina principal */
 	display: table-cell;
