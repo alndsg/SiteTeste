@@ -3,29 +3,31 @@ body{                 /* => Fundo ou corpo do site */
 	background-color: #f1f1f1;
 	font-size: 14px;
 }
-#listaMenu ul{           /* => Lista do menu. Usa-se "#" para se referir a uma id */
+#listaMenu {           /* => Lista do menu. Usa-se "#" para se referir a uma id */
 	list-style-type: none;
     overflow: hidden;
-    background-color: #333;
 	text-align: center;
 	margin-bottom: 2px;
 	font-weight: bold;
 	font-size: 18px;
+	position: relative;
 }
 
-#listaMenu ul li {                   
-	display: inline;   /* => coloca os itens da lista em linha */
+#listaMenu ul li {     /* => coloca os itens da lista em linha */              
+	display: inline;  
+	background-color: #333;
+	padding: 10px;
+	border-radius: 10px;
 }
 
 #listaMenu ul li a {      /* => define os links de cada item da lista */
     display: inline;
 	color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-#listaMenu ul li a:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
+#listaMenu ul li:hover {           /* => Define o que vai acontecer quando o mouse estiver em cima de cada item da lista */
     background-color: #228B22;
 }
 
