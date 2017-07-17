@@ -1,23 +1,36 @@
 body{                 /* => Fundo ou corpo do site */
 	text-align: center;
-	background-color: #f1f1f1;
 	font-size: 14px;
+	background-image: url("imagens/fundolateral.jpg");
+	background-color: #f1f1f1;
+}
+#interface {    /* lateral da pagina */
+	width: 970px;
+	background-color: #f1f1f1;
+	margin: 4px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding-top: 20px;
+	border-radius: 8px;
 }
 #listaMenu {           /* => Lista do menu. Usa-se "#" para se referir a uma id */
 	list-style-type: none;
     overflow: hidden;
 	text-align: center;
 	margin-bottom: 2px;
+	font-family: Arial Black, Gadget, sans-serif;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 20px;
 	position: relative;
+	margin-top: -22px;
+	padding-bottom: 20px;
+	height: 30px;
 }
 
 #listaMenu ul li {     /* => coloca os itens da lista em linha */              
 	display: inline;  
 	background-color: #333;
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 8px;
 }
 
 #listaMenu ul li a {      /* => define os links de cada item da lista */
