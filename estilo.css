@@ -56,3 +56,54 @@ body{                 /* => Fundo ou corpo do site */
 	float: left;
 	text-align: left;
 }
+
+/*iniciando as ed do formulario*/
+#area
+  {
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+  }
+  #area #formulario
+  {
+    position:absolute;
+    display:block;   
+  }
+  fieldset
+  {
+    width:300px;
+    height:250px;
+  }
+  
+
+
+  legend
+  {
+    font-style:bold;
+    font-family: "Segoe UI";
+  }
+  #formulario label
+  {
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+  }
+  
+
+  #formulario input.campo_nome
+  {
+    position:absolute;
+    left:95px;
+    top:23px;
+    width:225px;
+  }
+  #formulario input.campo_email
+  {
+    position:absolute;
+    left:95px;
+    margin-top:2px;
+    width:225px;
+  }
+/* fim da ed formulario */
