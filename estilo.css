@@ -58,6 +58,7 @@ body{                 /* => Fundo ou corpo do site */
 	float: left;
 	padding-left: 1px;
 	border-radius: 4px;
+	border-radius: 10px;
 }
 .textoDireita {          /* conteudo parte 1 da pagina principal */
 	display: table-cell;
